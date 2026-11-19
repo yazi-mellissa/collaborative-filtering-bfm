@@ -1,0 +1,89 @@
+{
+  "shape": [
+    610,
+    4980
+  ],
+  "train": {
+    "ratings": 31598,
+    "density_percent": 1.040160642570281,
+    "per_user_median": 24.0,
+    "per_user_min_max": [
+      2,
+      815
+    ],
+    "per_movie_median": 3.0,
+    "per_movie_max": 109,
+    "movies_with_at_most_2": 2295,
+    "mean_rating": 3.524605987720742,
+    "std_rating": 1.0326053351746378
+  },
+  "test": {
+    "ratings": 31598,
+    "density_percent": 1.040160642570281,
+    "per_user_median": 23.0,
+    "per_user_min_max": [
+      3,
+      804
+    ],
+    "per_movie_median": 3.0,
+    "per_movie_max": 110,
+    "movies_with_at_most_2": 2294,
+    "mean_rating": 3.511709601873536,
+    "std_rating": 1.0368116506213012
+  },
+  "train+test": {
+    "ratings": 63196,
+    "density_percent": 2.080321285140562,
+    "per_user_median": 46.5,
+    "per_user_min_max": [
+      9,
+      1619
+    ],
+    "per_movie_median": 6.0,
+    "per_movie_max": 219,
+    "movies_with_at_most_2": 976,
+    "mean_rating": 3.518157794797139,
+    "std_rating": 1.0347307223329056
+  },
+  "cells_in_both_files": 0,
+  "test_ratings_on_movies_absent_from_train": 0,
+  "rating_values_percent": {
+    "0.5": 1.289638584720552,
+    "1": 2.678967023229318,
+    "1.5": 1.644091398189759,
+    "2": 7.302677384644598,
+    "2.5": 5.38325210456358,
+    "3": 19.990189252484335,
+    "3.5": 13.015064244572441,
+    "4": 26.79758212545098,
+    "4.5": 8.48787897968226,
+    "5": 13.410658902462181
+  },
+  "genres": {
+    "Drama": 2206,
+    "Comedy": 2012,
+    "Action": 1149,
+    "Thriller": 1138,
+    "Romance": 891,
+    "Adventure": 814,
+    "Crime": 693,
+    "Sci-Fi": 601,
+    "Fantasy": 455,
+    "Horror": 441,
+    "Children": 402,
+    "Mystery": 338,
+    "Animation": 283,
+    "War": 207,
+    "Musical": 186,
+    "IMAX": 130,
+    "Documentary": 119,
+    "Western": 88,
+    "Film-Noir": 46,
+    "(no genres listed)": 2
+  },
+  "titles_with_year": 4979,
+  "year_range": [
+    1902,
+    2018
+  ]
+}

@@ -1,0 +1,26 @@
+[project]
+name = 'datalab-a1'
+version = '0.1.0'
+description = 'DataLab A1 - collaborative filtering'
+readme = 'README.md'
+requires-python = '>=3.13'
+dependencies = [
+    'numpy>=2.5.3',
+    'tqdm>=4.70.1',
+    'scipy>=1.18',
+    'myfm>=0.5.0',
+]
+
+[dependency-groups]
+dev = [
+    'ruff>=0.17.0',
+    'matplotlib>=3.10',
+]
+
+[tool.ruff]
+extend-select = ['I']
+line-length = 76
+
+[tool.ruff.format]
+quote-style = 'single'
+indent-style = 'tab'
